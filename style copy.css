@@ -1,0 +1,85 @@
+@media(min-width: 800px){    
+    .middle-centered {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        border-radius: 50%;
+        display: static;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.middle-centered div {
+    border: 1px #ccc solid;
+    padding: 10px;
+    margin: 0px;
+}
+
+.right-aligned {
+    flex: 2;
+}
+
+.left-aligned{
+    flex: 1;
+}
+
+.name {
+display: block;
+font-size: 35px;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.title {
+font-size: 22px;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.email {
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+    
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/*Navigation menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3f3f3f;
+}
+
+#interests {
+    text-align: center;;
+    background-color: #ffffff;
+}
